@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="5" extheight="448" extwidth="11584" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="85.0" height="384" id="0" name="springScene1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="11520">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <grad-bg b1="255" b2="204" g1="102" g2="204" r1="51" r2="51"/>
+    <backgrounds/>
+    <foregrounds/>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="122" id="0" name="Region 0" pts="4,0.0,0.0,0.0,122.0,129.0,122.0,129.0,0.0" r="64" type="box" w="129" x="11552" y="128"/>
+        <region b="64" g="64" h="118" id="1" name="Region 1" pts="4,0.0,0.0,0.0,118.0,120.0,118.0,120.0,0.0" r="64" type="box" w="120" x="11400" y="142"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="7" name="snowman 1" sx="1.0" sy="1.0" x="4" y="225" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="1" id="9" name="MovingTileset 2" sx="1.0" sy="1.0" x="1730" y="226" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="11" name="sun 3" sx="1.0" sy="1.0" x="1697" y="65" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="1" id="23" name="MovingTileset_Horizontally 4" sx="1.0" sy="0.9285714" x="2851" y="225" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="1" id="9" name="MovingTileset_Vertically 5" sx="1.0" sy="1.0" x="3106" y="226" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="1" id="23" name="MovingTileset_Horizontally 6" sx="1.0" sy="1.0" x="3362" y="226" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="-2" id="25" name="refrigerator_endScene 7" sx="1.0" sy="1.0" x="11399" y="142" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="13" name="snowflake 8" sx="1.0" sy="1.0" x="1666" y="67" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="4" id="29" name="sunflowerSpringEnemy 9" sx="1.0" sy="1.0" x="291" y="244" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="4" id="29" name="sunflowerSpringEnemy 10" sx="1.0" sy="1.0" x="2298" y="212" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="4" id="31" name="movingSun 11" sx="1.0" sy="1.0" x="4689" y="146" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="1" id="9" name="MovingTileset_Vertically 13" sx="1.0" sy="1.0" x="6496" y="256" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="33" name="movingSunDown 14" sx="1.0" sy="1.0" x="5105" y="145" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="4" id="31" name="movingSun 15" sx="1.0" sy="1.0" x="5329" y="172" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="4" id="35" name="movingSunHorizontally 17" sx="1.0" sy="1.0" x="5856" y="192" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="4" id="29" name="sunflowerSpringEnemy 16" sx="1.0" sy="1.0" x="5594" y="246" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="4" id="29" name="sunflowerSpringEnemy 19" sx="1.0" sy="1.0" x="7144" y="310" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="4" id="35" name="movingSunHorizontally 18" sx="1.0" sy="1.0" x="6114" y="192" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="4" id="29" name="sunflowerSpringEnemy 21" sx="1.0" sy="1.0" x="8249" y="212" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="4" id="29" name="sunflowerSpringEnemy 20" sx="1.0" sy="1.0" x="7545" y="213" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="1" id="23" name="MovingTileset_Horizontally 23" sx="1.0" sy="1.0" x="9411" y="259" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="4" id="29" name="sunflowerSpringEnemy 22" sx="1.0" sy="1.0" x="8791" y="210" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="1" id="23" name="MovingTileset_Horizontally 25" sx="1.0" sy="1.0" x="9923" y="258" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="1" id="9" name="MovingTileset_Vertically 24" sx="1.0" sy="1.0" x="9667" y="259" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="17">
+            <prop id="1" list="0" val="1"/>
+            <prop id="2" list="0" val="1"/>
+            <prop id="4" list="0" val="1"/>
+            <prop id="7" list="0" val="false"/>
+            <prop id="8" list="0" val="false"/>
+            <prop id="9" list="0" val="No Control"/>
+            <prop id="10" list="0" val="0.5"/>
+            <prop id="11" list="0" val="0.5"/>
+            <prop id="12" list="0" val="Fade"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="8,1088.0,0.0,1088.0,128.0,0.0,128.0,0.0,0.0,192.0,0.0,192.0,96.0,640.0,96.0,640.0,0.0" x="6752.0" y="256.0"/>
+        <p pts="4,96.0,0.0,96.0,32.0,0.0,32.0,0.0,0.0" x="7040.0" y="256.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="1664.0" y="320.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="1856.0" y="320.0"/>
+        <p pts="4,1024.0,0.0,1024.0,128.0,0.0,128.0,0.0,0.0" x="3616.0" y="256.0"/>
+        <p pts="4,0.0,128.0,0.0,0.0,480.0,0.0,480.0,128.0" x="2208.0" y="256.0"/>
+        <p pts="6,0.0,128.0,0.0,32.0,256.0,32.0,256.0,0.0,928.0,0.0,928.0,128.0" x="5408.0" y="256.0"/>
+        <p pts="4,96.0,0.0,96.0,32.0,0.0,32.0,0.0,0.0" x="576.0" y="224.0"/>
+        <p pts="4,96.0,0.0,96.0,32.0,0.0,32.0,0.0,0.0" x="7200.0" y="256.0"/>
+        <p pts="4,480.0,0.0,480.0,96.0,0.0,96.0,0.0,0.0" x="0.0" y="288.0"/>
+        <p pts="4,0.0,0.0,160.0,0.0,160.0,128.0,0.0,128.0" x="11360.0" y="256.0"/>
+        <p pts="4,1216.0,0.0,1216.0,128.0,0.0,128.0,0.0,0.0" x="8032.0" y="256.0"/>
+        <p pts="6,768.0,0.0,768.0,128.0,0.0,128.0,0.0,32.0,192.0,32.0,192.0,0.0" x="768.0" y="256.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="2048.0" y="320.0"/>
+        <p pts="4,0.0,0.0,64.0,0.0,64.0,128.0,0.0,128.0" x="5216.0" y="256.0"/>
+        <p pts="4,0.0,128.0,0.0,0.0,256.0,0.0,256.0,128.0" x="4768.0" y="256.0"/>
+    </terrain>
+</scene>

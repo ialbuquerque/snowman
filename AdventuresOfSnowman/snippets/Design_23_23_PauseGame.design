@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="1" id="1">
+        <if comment="false" x="241" y="121">
+            <group eventID="1" id="-1">
+                <if comment="false" x="252" y="154">
+                    <group eventID="1" id="-1">
+                        <pause-unpause comment="false" x="263" y="179">
+                            <int id="0" val="1"/>
+                        </pause-unpause>
+                    </group>
+                    <is-paused comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="252" y="218">
+                    <group eventID="1" id="-1">
+                        <pause-unpause comment="false" x="263" y="238">
+                            <int id="0" val="0"/>
+                        </pause-unpause>
+                    </group>
+                </else>
+            </group>
+            <keystate comment="false" id="0" x="0" y="0">
+                <int id="0" val="1"/>
+                <CONTROL eid="6" id="1"/>
+            </keystate>
+        </if>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
