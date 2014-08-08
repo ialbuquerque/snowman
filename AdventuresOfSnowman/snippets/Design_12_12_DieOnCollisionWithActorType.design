@@ -7,9 +7,9 @@
                     <ACTOR eid="this" id="0"/>
                 </die>
                 <scene-change-new comment="false" x="26" y="74">
-                    <SCENE eid="0" id="0"/>
+                    <SCENE eid="1" id="0"/>
                     <int id="1" val="0"/>
-                    <int id="2" val="0.1"/>
+                    <int id="2" val="0.5"/>
                     <int id="3" val="0"/>
                     <int id="4" val="0.5"/>
                 </scene-change-new>

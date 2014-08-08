@@ -223,13 +223,11 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_2" classname="scripts.SceneEvents_2" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="18" language="" name="SceneEvents_2" oid="-1" package="scripts." sceneid="2" scenespecific="true" shared="false" type="scene">
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="21" language="" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" scenespecific="true" shared="false" type="scene">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_20_20_SwitchSceneButton" classname="scripts.Design_20_20_SwitchSceneButton" desc="A button to switch to a different scene." description="A button to switch to a different scene." design="true" drawOrder="0" id="20" language="" name="Switch Scene Button" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <animation default="" defaultValue="" desc="Animation for the button in an unpressed state." dropdown="" fullname="Normal Animation" hidden="false" id="1" name="_NormalAnimation" order="6"/>
@@ -259,7 +257,9 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_29" classname="scripts.ActorEvents_29" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="22" language="" name="ActorEvents_29" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_25_25_PauseButton" classname="scripts.Design_25_25_PauseButton" desc="A button to pause/unpause the game." description="A button to pause/unpause the game." design="true" drawOrder="0" id="25" language="" name="Pause Button" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <animation default="" defaultValue="" desc="Animation for the button in an unpressed state." dropdown="" fullname="Normal Animation" hidden="false" id="1" name="_NormalAnimation" order="5"/>
@@ -322,8 +322,84 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="true" class="scripts.ActorEvents_33" classname="scripts.ActorEvents_33" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="30" language="" name="ActorEvents_33" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+    <snippet attachedevent="true" class="scripts.ActorEvents_48" classname="scripts.ActorEvents_48" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="34" language="" name="ActorEvents_48" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
         <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_35_35_FadeAfterTime" classname="scripts.Design_35_35_FadeAfterTime" desc="Attach this behaviour to an actor to have it fade out after the specified time and over a specified duration" description="Attach this behaviour to an actor to have it fade out after the specified time and over a specified duration" design="true" drawOrder="0" id="35" language="" name="Fade After Time" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="1" defaultValue="1" desc="The amount of time, in seconds, over which to fade out." dropdown="" fullname="Fade Time" hidden="false" id="1" name="_FadeTime" order="3"/>
+        <number default="1" defaultValue="1" desc="The amount of time, in seconds after which the actor should start fading." dropdown="" fullname="Time to Fade After" hidden="false" id="3" name="_TimetoFadeAfter" order="2"/>
+        <boolean default="false" defaultValue="false" desc="An INTERNAL attribute to determine whether or not the actor is already fading." dropdown="" fullname="Fading" hidden="true" id="5" name="_Fading" order="1"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the actor is killed after fading out." dropdown="" fullname="Kill After Fade" hidden="false" id="6" name="_KillAfterFade" order="4"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Fade" enabled="true" id="1" name="event-custom" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_37" classname="scripts.ActorEvents_37" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="32" language="" name="ActorEvents_37" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_2" classname="scripts.SceneEvents_2" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="33" language="" name="SceneEvents_2" oid="-1" package="scripts." sceneid="2" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_2" classname="scripts.ActorEvents_2" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="38" language="" name="ActorEvents_2" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="39" language="" name="ActorEvents_0" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_36_36_DieAfterTime" classname="scripts.Design_36_36_DieAfterTime" desc="Attach to an actor to make it die after the given amount of time." description="Attach to an actor to make it die after the given amount of time." design="true" drawOrder="0" id="36" language="" name="Die After Time" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="1" defaultValue="1" desc="The amount of time, in seconds, that the actor should wait before it dies." dropdown="" fullname="Time" hidden="false" id="1" name="_Time" order="1"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Do After" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_37_37_timer" classname="scripts.Design_37_37_timer" desc="" description="" design="true" drawOrder="0" id="37" language="" name="timer" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Timer" hidden="true" id="1" name="_Timer" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="2" name="init" order="7" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="4" name="draw" order="5" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="5" name="event-periodic" order="2" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="6" name="draw" order="6" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_3" classname="scripts.SceneEvents_3" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="42" language="" name="SceneEvents_3" oid="-1" package="scripts." sceneid="3" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_43_43_SwitchSceneonClickorTouch" classname="scripts.Design_43_43_SwitchSceneonClickorTouch" desc="Switch scene when the user clicks or touches the screen." description="Switch scene when the user clicks or touches the screen." design="true" drawOrder="0" id="43" language="" name="Switch Scene on Click or Touch" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <scene default="" defaultValue="" desc="The scene to switch to." dropdown="" fullname="Next Scene" hidden="false" id="2" name="_NextScene" order="0"/>
+        <number default="0.5" defaultValue="0.5" desc="The time to transition out, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise the time to transition out and in." dropdown="" fullname="Out Time" hidden="false" id="7" name="_OutTime" order="4"/>
+        <number default="0.5" defaultValue="0.5" desc="The time to transition in, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise it is ignored." dropdown="" fullname="In Time" hidden="false" id="8" name="_InTime" order="5"/>
+        <text default="" defaultValue="" desc="The style to use for the switch scene transition." dropdown="Fade=Fade&#10;Blinds=Blinds&#10;Bubbles=Bubbles&#10;Spotlight=Spotlight&#10;Blur=Blur&#10;Box=Box&#10;Crossfade=Crossfade&#10;Slide Up=Slide Up&#10;Slide Down=Slide Down&#10;Slide Left=Slide Left&#10;Slide Right=Slide Right" fullname="Transition Style" hidden="false" id="9" name="_TransitionStyle" order="3"/>
+        <blocks/>
+        <events>
+            <event displayName="Click" enabled="true" id="2" name="event-mouse-press-release" order="2" repeats="true"/>
+            <event displayName="SwitchScene" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_40_40_Death" classname="scripts.Design_40_40_Death" desc="" description="" design="true" drawOrder="0" id="40" language="" name="Death" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName=" Actor - Group" enabled="true" id="1" name="event-collide-actortogroup" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_41_41_GainLives" classname="scripts.Design_41_41_GainLives" desc="" description="" design="true" drawOrder="0" id="41" language="" name="GainLives" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+        </events>
     </snippet>
 </pack>

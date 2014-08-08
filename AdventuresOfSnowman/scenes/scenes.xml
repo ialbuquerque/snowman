@@ -3,4 +3,5 @@
     <scene desc="" format="1.0" id="0" name="springScene1"/>
     <scene desc="" format="1.0" id="1" name="springScene2"/>
     <scene desc="" format="1.0" id="2" name="main"/>
+    <scene desc="" format="1.0" id="3" name="win"/>
 </scenes>

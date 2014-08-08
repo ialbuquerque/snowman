@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <scene-reload-new comment="false" x="26" y="47">
+                    <int id="0" val="0"/>
+                    <int id="1" val="0.1"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="0.1"/>
+                </scene-reload-new>
+                <if comment="false" x="26" y="74">
+                    <group eventID="1" id="-1">
+                        <die comment="false" x="37" y="107">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                        <set-game-val-0 comment="false" x="37" y="134">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-game-val-0>
+                    </group>
+                    <isalive comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </isalive>
+                </if>
+                <apply-filter comment="false" x="26" y="176">
+                    <ACTOR eid="this" id="0"/>
+                    <filter-negative comment="false" id="1" x="0" y="0"/>
+                </apply-filter>
+                <dolater comment="false" x="26" y="208">
+                    <group eventID="1" id="-1">
+                        <clear-filter comment="false" x="37" y="235">
+                            <ACTOR eid="this" id="0"/>
+                        </clear-filter>
+                    </group>
+                    <int id="0" val=".1"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <GROUP eid="4" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <scene-change-through comment="false" x="37" y="70">
+                            <SCENE eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0.1"/>
+                        </scene-change-through>
+                        <set-game-val-0 comment="false" x="37" y="97">
+                            <int id="0" val="5"/>
+                        </set-game-val-0>
+                    </group>
+                    <less comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </less>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

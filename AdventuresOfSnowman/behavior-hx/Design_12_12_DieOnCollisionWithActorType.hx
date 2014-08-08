@@ -83,7 +83,7 @@ nameMap.set("Actor", "actor");
 addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
 if(wrapper.enabled && sameAsAny(_ActorType, event.otherActor.getType(),event.otherActor.getGroup())){
         recycleActor(actor);
-        switchScene(GameModel.get().scenes.get(0).getID(), createFadeOut((0.1)),createFadeIn((0.5)));
+        switchScene(GameModel.get().scenes.get(1).getID(), createFadeOut((0.5)),createFadeIn((0.5)));
 }
 });
 

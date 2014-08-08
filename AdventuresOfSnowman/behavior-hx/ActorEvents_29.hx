@@ -74,7 +74,15 @@ class ActorEvents_29 extends ActorScript
 	
 	override public function init()
 	{
-		
+		    
+/* ======================== Actor of Type ========================= */
+addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
+if(wrapper.enabled && sameAsAny(getActorType(7), event.otherActor.getType(),event.otherActor.getGroup())){
+        recycleActor(actor);
+        setGameAttribute("Lives", (getGameAttribute("Lives") - 1));
+}
+});
+
 	}	      	
 	
 	override public function forwardMessage(msg:String)
