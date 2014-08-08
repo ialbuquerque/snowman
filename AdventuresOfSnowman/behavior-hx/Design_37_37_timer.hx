@@ -96,7 +96,7 @@ addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>
 if(wrapper.enabled){
         g.setFont(getFont(51));
         g.drawString("" + _Timer, 5, 5);
-        g.drawString("" + "seconds", 35, 5);
+        g.drawString("" + "segundos", 35, 5);
 }
 });
     

@@ -22,7 +22,7 @@
                     <int id="2" val="5"/>
                 </draw-text>
                 <draw-text comment="false" x="26" y="92">
-                    <int id="0" val="seconds"/>
+                    <int id="0" val="segundos"/>
                     <int id="1" val="35"/>
                     <int id="2" val="5"/>
                 </draw-text>

@@ -87,6 +87,7 @@ if(wrapper.enabled){
                 if(actor.isAlive())
 {
                     recycleActor(actor);
+                    setGameAttribute("Lives", (getGameAttribute("Lives") - 1));
 }
 
 }
